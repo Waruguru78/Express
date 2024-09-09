@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header nav {
+    background-color: #acc2f0; 
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    margin-left: auto; 
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #0044cc; 
+  }
+  
+ 
+  footer {
+    background-color: #acc2f0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    height: 100vh;
+    padding-left: 50px; 
+    background-image: url('/Images/hospital-bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content-text h1, .content-text p {
+    color: black; 
+  }
+  
+  .content-text {
+    max-width: 40%; 
+  }
+  
+  .btn-primary {
+    background-color: #0044cc;
+    border-color: #0044cc;
+  }
+  
+  .btn-primary:hover {
+    background-color: #002a80;
+    border-color: #002a80;
+  }
+  
+  .services-section {
+    background-color: #f9f9f9; 
+    padding: 50px 0;
+  }
+  
+  .title {
+    text-align: center; 
+    font-weight: bold;   
+    font-size: 2.5rem;    
+    margin-bottom: 30px;  
+    color: #0044cc;  
+  }
+  .card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    color: #0044cc;
+    font-weight: bold;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .service-description {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .contact-image {
+    width: 100%; 
+    height: auto; 
+    float: left;
+    margin-right: 20px;
+  }
+  
+  .contact-form-container {
+    background-color: rgb(120, 191, 204); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control {
+    margin-bottom: 1rem;
+  }
+  
+  .off-white-bg {
+    background-color: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .main-content {
+      flex-direction: column; 
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .contact-image {
+      float: none; 
+      margin-bottom: 20px;
+    }
+  
+    .content-text {
+      max-width: 100%;
+      padding-left: 0;
+    }
+  
+    .contact-form-container {
+      padding: 10px;
+    }
+  }
+  
